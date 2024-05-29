@@ -1,0 +1,80 @@
+.parent-container{
+    display: flex;
+    width: 75%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 6%;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+.first-cotainer{
+    background-color: hsl(31, 77%, 52%);
+    flex-basis: 33.4%;
+    padding-left: 50px;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.second-container{
+    background-color: hsl(184, 100%, 22%);
+    flex-basis: 33.4%;
+    padding-left: 50px;
+}
+.third-container{
+    background-color: hsl(179, 100%, 13%);
+    flex-basis: 33.4%;
+    padding-left: 50px;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.image{
+    margin-top: 50px;
+}
+.headings{
+    color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+    font-family: "Big Shoulders Display";
+}
+.text{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+    font-family: "Lexend Deca";
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+    height: 6vh;
+    margin-top: 55px;
+    border-radius: 20px;
+    width: 40%;
+    border: 1px solid white;
+}
+.btn1:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+.btn2{
+    color: hsl(184, 100%, 22%); 
+    height: 6vh;
+    margin-top: 55px;
+    border-radius: 20px;
+    width: 40%;
+    border: 1px solid white;
+}
+.btn2:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+    height: 6vh;
+    margin-top: 55px;
+    border-radius: 20px;
+    width: 40%;
+    border: 1px solid white;
+}
+.btn3:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
